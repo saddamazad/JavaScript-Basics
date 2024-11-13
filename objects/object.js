@@ -1,4 +1,4 @@
-
+// Objects should be declared with `const` keyword
 const person = {
     firstName: "John",
     lastName: "Doe",
