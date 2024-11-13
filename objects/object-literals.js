@@ -10,6 +10,8 @@ const myObj = {name: "Azad", city: "Dhaka"};
 
 // let x = 5; // literal syntax
 // let y = "Rahim"; // literal syntax
+
 /* since these are fixed values, so these are literals */
+
 // "Test String"; // literal
 // 30 * 48; // literal
