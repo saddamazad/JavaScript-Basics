@@ -1,4 +1,3 @@
-
 // Sorting a whole array is a very inefficient method if we only want to find the highest (or lowest) value
 
 
