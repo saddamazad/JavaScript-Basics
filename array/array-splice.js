@@ -57,4 +57,3 @@ console.log(spliced); // ['Jan', 'Apr'] -    "Feb" & "Mar" removed
 
 // the original `months` array is unchanged
 console.log(months); // ['Jan', 'Feb', 'Mar', 'Apr']
-
