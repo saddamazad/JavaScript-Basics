@@ -12,3 +12,4 @@ console.log(myChildren); // ['Cecilie', 'Lone', 'Linus', 'Emil', 'Tobias', 'Linu
 const myChilds = myBoys.concat("Tarin"); // we can concat a `string/element` with an array
 
 console.log(myChilds); // ['Emil', 'Tobias', 'Linus', 'Tarin']
+
