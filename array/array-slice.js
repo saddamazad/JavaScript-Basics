@@ -18,3 +18,4 @@ console.log(citrus); // ['Apple', 'Mango']
 const citrus2 = fruits.slice(1, 4); // it'll slice/cut the array starting at index(1) and end the slice/cut `BEFORE` index(4) and return the sliced elements as a new array
 
 console.log(citrus2); // ['Orange', 'Lemon', 'Apple']
+
