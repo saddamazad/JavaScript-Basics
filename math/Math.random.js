@@ -39,4 +39,3 @@ function getRndmIntegerInc(min, max) {
 console.log( getRndmIntegerInc(10, 20) ); // 17, 19, `10`, 12, `20`, 18 (min 10, max 20 included in the random numbers)
 
 console.log( getRndmInteger(10, 20) ); // 13, 11, 14, `10`, 18, 12 (min 10 included in the random numbers, BUT not the max 20)
-
