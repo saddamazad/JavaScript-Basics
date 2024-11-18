@@ -1,4 +1,4 @@
-const d = new Date();
+const d = new Date(); // current date & time
 
 console.log( d.getTime() ); // 1731789956419 milliseconds since January 1, 1970
 
