@@ -3,7 +3,7 @@ const vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
 function countVowels(sentence) {
     let count = 0;
 
-    // we know "string" is also a special type of `iterable object`
+    // we know "string" is also a SPECIAL type of `iterable object`
     // the Array.from() method `creates an array` from an iterable object, we used this in the (array) chapter
     const letters = Array.from(sentence);
 
