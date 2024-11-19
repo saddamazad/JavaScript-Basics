@@ -9,7 +9,7 @@ for (let carItem of cars) {
 }
 
 
-/* #### Looping over a String/Iterable Object #### */
+/* #### Looping over a String/`Iterable` Object #### */
 
 let language = "JavaScript"; // we know string is a built-in `iterable object`
 
