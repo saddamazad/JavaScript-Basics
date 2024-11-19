@@ -16,4 +16,3 @@ let language = "JavaScript"; // we know string is a built-in `iterable object`
 for (let letter of language) {
     console.log( letter );
 }
-
