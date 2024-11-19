@@ -4,7 +4,7 @@ function countVowels(sentence) {
     let count = 0;
 
     // we know "string" is also a special type of `iterable object`
-    // the Array.from() method converts an iterable object into an `array`, we used this in the (array) chapter
+    // the Array.from() method `creates an array` from an iterable object, we used this in the (array) chapter
     const letters = Array.from(sentence);
 
     letters.forEach(function(value, index, array) {
