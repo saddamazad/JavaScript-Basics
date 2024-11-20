@@ -7,7 +7,6 @@
 const myObj = {name: "Azad", city: "Dhaka"};
 
 
-
 // let x = 5; // literal syntax
 // let y = "Rahim"; // literal syntax
 
