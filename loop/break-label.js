@@ -4,12 +4,16 @@
 const cars = ["BMW", "Volvo", "Saab", "Ford"];
 let text = "";
 
-list: {
-  text += cars[0] + "\n"; 
-  text += cars[1] + "\n"; 
-  break list; // break/jump out from this(list) code block
-  text += cars[2] + "/n"; 
-  text += cars[3] + "/n"; 
+list: { // this is a code-block labeled/named `list`
+
+    text += cars[0] + "\n";
+    text += cars[1] + "\n";
+
+    break list; // break/jump out from this(`list`) code-block
+
+    text += cars[2] + "/n";
+    text += cars[3] + "/n";
+
 }
 
 console.log( text ); // "BMW", "Volvo"
