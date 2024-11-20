@@ -40,4 +40,5 @@ let player = {name: "Tamim", type: "Opening Batsman"};
 player = null;
 
 console.log( player ); // null
+
 console.log( typeof player ); // object, though the Object is set to null BUT it's still an Object
