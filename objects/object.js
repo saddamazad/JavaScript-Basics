@@ -36,7 +36,7 @@ console.log( person ); // `age` property deleted
 
 let player = {name: "Tamim", type: "Opening Batsman"};
 
-// we can empty an object by setting it to `null`
+// we can empty an object by setting it to `null`, ONLY if the object is declared with (var/let)
 player = null;
 
 console.log( player ); // null
