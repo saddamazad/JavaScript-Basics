@@ -26,6 +26,9 @@ ucLetters.add("F");
 console.log( ucLetters );
 
 
+console.log( ucLetters.size ); // 6
+
+
 // Loop through the Set elements
 ucLetters.forEach(function(value) {
     console.log( value ); // A, B, C, D, E, F
