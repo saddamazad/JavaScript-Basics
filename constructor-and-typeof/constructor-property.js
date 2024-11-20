@@ -24,6 +24,7 @@ console.log( new Map().constructor ); // function Map()
 console.log( function() {}.constructor ); // function Function()
 
 
+
 const myArray = [1, 2, 3, 4];
 //console.log( typeof myArray ); // object
 
