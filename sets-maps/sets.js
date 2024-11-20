@@ -26,7 +26,7 @@ ucLetters.add("F");
 console.log( ucLetters );
 
 
-console.log( ucLetters.size ); // 6
+console.log( ucLetters.size ); // 6,  it's like arr.length property
 
 
 // Loop through the Set elements
