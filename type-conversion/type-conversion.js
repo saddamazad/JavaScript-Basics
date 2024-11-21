@@ -99,4 +99,4 @@ console.log( "5" + 2 ); // "52", String gets priority when the `+` operator is u
 
 console.log( "5" - 2 ); // 3, Number get priority when the `-` operator is used, so it converts the `5` to a Number as well
 
-console.log( "5" * "2" ); // 10, it converts both the operand to Numbers, because the we can make subtraction(-), multiplication(*) etc. operations only on Numbers
+console.log( "5" * "2" ); // 10, it converts both the operands to Numbers, because logically we can make subtraction(-), multiplication(*) etc. operations only on Numbers
