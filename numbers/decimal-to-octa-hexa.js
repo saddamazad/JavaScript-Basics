@@ -13,3 +13,27 @@ let myNumber = 32;
 console.log( myNumber.toString(2) ); // 100000, Binary value - Pass the number system base in the parameter
 console.log( myNumber.toString(16) ); // 20, Hexadecimal value
 console.log( myNumber.toString(8) ); // 40, Octal value
+
+
+
+// convert `binary` to decimal
+
+let bin32 = 0b100000; // `0b`(zero b) is the prefix to declare/identify a binary number
+
+console.log( bin32.toString(10) ); // 32
+
+
+
+// convert `octal` to decimal
+
+let oct32 = 0o40; // `0o`(zero o) is the prefix to declare/identify an octal number
+
+console.log( oct32.toString(10) ); // 32
+
+
+
+// convert `hexadecimal` to decimal
+
+let hex32 = 0x20; // `0x`(zero x) is the prefix to declare/identify a hexadecimal number
+
+console.log( oct32.toString(10) ); // 32
