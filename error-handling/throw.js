@@ -18,7 +18,7 @@ try {
 
 } catch(err) {
 
-    // since it's a custom error and we're thrwoing an String as the error message, we will directly get the error message in `err` parameter
+    // since it's a custom error and we're throwing a String as the error message, we will directly get the error message in `err` parameter
 
     console.log( err ); // "too high"
 
