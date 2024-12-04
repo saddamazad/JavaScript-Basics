@@ -27,3 +27,26 @@ console.log( myObject.fullName ); // we are accessing the Getter like a `propert
 myObject.lang = "BN"; // setting value for a `property` using the Setter
 
 console.log( myObject );
+
+
+// add Setter and Getter from outside the Object defination/literal
+
+Object.defineProperty(myObject, "bio", {
+    get : function () {
+        return this.lastName + " is " + this.age + " years old and speaks " + this.language;
+    }
+});
+
+Object.defineProperty(myObject, "setAge", {
+    set : function (value) {
+        this.age = value;
+    }
+});
+
+
+console.log( myObject.bio );
+
+
+myObject.setAge = 30;
+
+console.log( myObject.bio );
